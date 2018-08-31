@@ -4,3 +4,8 @@ function findMatching(arrayOfDrivers, anyString) {
 })
 }
 
+function fuzzyMatch(drivers, anyString){
+  return drivers.filter((el)=>{
+    
+  })
+}
