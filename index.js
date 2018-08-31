@@ -9,3 +9,7 @@ function fuzzyMatch(drivers, anyString){
     return el.slice(0, anyString.length) === anyString;
   })
 }
+
+function matchName(drivers, anyString){
+  
+}
