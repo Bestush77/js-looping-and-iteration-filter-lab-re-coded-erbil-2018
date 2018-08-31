@@ -1,5 +1,5 @@
-// Code your solution in this file
-function findMatching(arrayOfDrivers, anyString) {
-  arrayOfDrivers.filter((el)=> {return    el.toLowerCase() === anyString.toLowerCase()
-})
+function findMatching (list, name) {
+  return list.filter(function (driverName) {
+    return driverName.toLowerCase() === name.toLowerCase();
+  });
 }
