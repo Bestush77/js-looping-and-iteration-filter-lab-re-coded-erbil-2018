@@ -11,5 +11,5 @@ function fuzzyMatch(drivers, anyString){
 }
 
 function matchName(drivers, anyString){
-  drivers.filter()
+  drivers.filter((el)=>{el.nname === anyString;})
 }
